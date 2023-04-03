@@ -1,0 +1,143 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "val1",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint8",
+						"name": "val2",
+						"type": "uint8"
+					}
+				],
+				"name": "get_suma",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "get_variable",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "get_x_external",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "get_x_internal",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "variable",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "x",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/HeredadoVisibilidad.sol": "HeredadoVisibilidad"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/HeredadoVisibilidad.sol": {
+			"keccak256": "0x0c147ddeb8b6ed2f24160b8a59a7ec204e344eaba8b55fee2f288a91fc84de20",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://68a377722f66cd69105c0070166d9a39066b7d39dafd9f1f29c436abd53dbc25",
+				"dweb:/ipfs/QmR67gaPYGtZiXXYVEAFfGQX9Vab74qpwGZ1ypfuzvPxK7"
+			]
+		},
+		"contracts/Visibilidad.sol": {
+			"keccak256": "0x4f8b7a0ff024965c611a086ffadff106e789f62852a7ccb61873d6951cb2460f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://21a93a6f6047dbc667d60b65f2c5eae2178cc140221ecdd0d28e88da9c16cd3b",
+				"dweb:/ipfs/QmPDyw7ogYyUPEWyv4NxcQ3YMjuDKqGJYkssGizsTTXzA9"
+			]
+		}
+	},
+	"version": 1
+}
