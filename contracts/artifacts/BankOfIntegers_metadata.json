@@ -6,10 +6,35 @@
 	"output": {
 		"abi": [
 			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "_from",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "Transfer",
+				"type": "event"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "amount",
+						"name": "_amount",
 						"type": "uint256"
 					}
 				],
@@ -41,17 +66,23 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "receiber",
+						"name": "_receiber",
 						"type": "address"
 					},
 					{
 						"internalType": "uint256",
-						"name": "amount",
+						"name": "_amount",
 						"type": "uint256"
 					}
 				],
-				"name": "transferBalance",
-				"outputs": [],
+				"name": "transfer",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			}
@@ -84,11 +115,11 @@
 	},
 	"sources": {
 		"contracts/Bankofintegers.sol": {
-			"keccak256": "0x9dbc4c2597333872ae0a546e557b5431338d100add0d3b225b4190cb060c036c",
+			"keccak256": "0x704ad771d65420dce77729e23c9ff4761d80d558982276457d7bfa104b5b0809",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d06b08ef011480f82b8c882667dd2c867b85d105088e374a17abde85df45cccf",
-				"dweb:/ipfs/QmTDopVjG2wj67CmFc5sNxjWKv9yH1eFuQJVwD2sQo82Wo"
+				"bzz-raw://af0568b04c554700e357e7fd8255a69b2bcb8498f991a650d62ead1b001ebb87",
+				"dweb:/ipfs/QmUY1XRL6chotEe7fq7zc2GHxT48Ji7TTqr5Q4xJ8PUF4h"
 			]
 		}
 	},
